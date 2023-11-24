@@ -3,6 +3,10 @@
   height: 747px;
   border-radius: 0px 0px 8px 8px;
   border: 2px solid rgba(255, 255, 255, 0.08);
+  padding-top: 24px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
   background: #292930;
 }
 
@@ -22,6 +26,12 @@
   border-bottom: none;
   position: relative;
   bottom: -1px;
+  color: #9C9CB0;
+  font-family: TTSmalls-Light;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
 }
 
 .tab.active {
@@ -29,4 +39,14 @@
   border-bottom: none;
   color: #6764F1;
   bottom: -3px;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.item {
+  display: block;
+  width: 296px;
+  cursor: grab;
 }/*# sourceMappingURL=Tabs.module.css.map */

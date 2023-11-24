@@ -1,6 +1,57 @@
 .wrapperItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
   width: 296px;
   height: 80px;
   border-radius: 8px;
   background: #303038;
+}
+
+.wrapperItem:hover, .wrapperItem:focus, .wrapperItem:active {
+  border-radius: 8px;
+  border: 2px solid #6764F1;
+  background: #303038;
+}
+
+.wrapperTitle {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  color: #F5F5F5;
+  font-family: TTSmalls-Medium;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.count {
+  color: #6B6B7B;
+  font-family: TTSmalls-Medium;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.time {
+  color: #6B6B7B;
+  font-family: TTSmalls-Light;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.span {
+  color: #EFB62B;
+  text-align: right;
+  font-family: TTSmalls-Bold;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
 }/*# sourceMappingURL=Tasks.module.css.map */
