@@ -41,4 +41,11 @@
      price: "$100",
      order: 6,
    },
+   {
+     id: "7",
+     name: "Сержант",
+     countTask: "5 заданий",
+     price: "$100",
+     order: 7,
+   },
  ];

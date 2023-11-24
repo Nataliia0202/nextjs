@@ -4,11 +4,11 @@ import { IconPoints } from '../icons/IconPoints';
 
 
 export interface ITask {
-    id?: string;
-    name: string;
-    countTask: string;
+  id?: string;
+  name: string;
+  countTask: string;
   price: string;
-  order?: number;
+  order?: number | undefined;
 }
 
 export default function Task({ name, countTask, price }: ITask) {
