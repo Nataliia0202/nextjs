@@ -1,0 +1,32 @@
+.wrapper {
+  max-width: 984px;
+  height: 747px;
+  border-radius: 0px 0px 8px 8px;
+  border: 2px solid rgba(255, 255, 255, 0.08);
+  background: #292930;
+}
+
+.tabContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.tab {
+  padding: 10px 15px;
+  cursor: pointer;
+  width: 245px;
+  height: 48px;
+  border-radius: 8px 8px 0px 0px;
+  border: 2px solid rgba(245, 245, 245, 0.08);
+  background: #292930;
+  border-bottom: none;
+  position: relative;
+  bottom: -1px;
+}
+
+.tab.active {
+  box-shadow: 0px 4px 8px 0px rgba(103, 100, 241, 0.16) inset;
+  border-bottom: none;
+  color: #6764F1;
+  bottom: -3px;
+}/*# sourceMappingURL=Tabs.module.css.map */
