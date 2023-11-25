@@ -17,6 +17,7 @@ export default function Form() {
             name="name"
             required
             minLength={5}
+            autoComplete="off"
           />
         </div>
         <div className={styles.wrapperText}>

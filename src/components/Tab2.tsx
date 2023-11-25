@@ -83,6 +83,7 @@ const Tab2: React.FC = () => {
   //обрабатываем логику сортировки карточек
   function dropHandler(e: DragEvent, task: ITask) {
     e.preventDefault();
+    //@ts-ignore
     setTasks((tasks) => {
       return tasks.map((c) => {
         if (c.id === task.id) {
